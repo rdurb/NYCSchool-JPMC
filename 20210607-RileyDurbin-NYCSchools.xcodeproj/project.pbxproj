@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0085C74A266EAEEC00E6D38C /* _0210607_RileyDurbin_NYCSchoolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0085C749266EAEEC00E6D38C /* _0210607_RileyDurbin_NYCSchoolsApp.swift */; };
+		0085C74C266EAEEC00E6D38C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0085C74B266EAEEC00E6D38C /* ContentView.swift */; };
+		0085C74E266EAEEF00E6D38C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0085C74D266EAEEF00E6D38C /* Assets.xcassets */; };
+		0085C751266EAEEF00E6D38C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0085C750266EAEEF00E6D38C /* Preview Assets.xcassets */; };
+		0085C75C266EAEEF00E6D38C /* _0210607_RileyDurbin_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0085C75B266EAEEF00E6D38C /* _0210607_RileyDurbin_NYCSchoolsTests.swift */; };
+		0085C767266EAEEF00E6D38C /* _0210607_RileyDurbin_NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0085C766266EAEEF00E6D38C /* _0210607_RileyDurbin_NYCSchoolsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0085C758266EAEEF00E6D38C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0085C73E266EAEEC00E6D38C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0085C745266EAEEC00E6D38C;
+			remoteInfo = "20210607-RileyDurbin-NYCSchools";
+		};
+		0085C763266EAEEF00E6D38C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0085C73E266EAEEC00E6D38C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0085C745266EAEEC00E6D38C;
+			remoteInfo = "20210607-RileyDurbin-NYCSchools";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0085C746266EAEEC00E6D38C /* 20210607-RileyDurbin-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20210607-RileyDurbin-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0085C749266EAEEC00E6D38C /* _0210607_RileyDurbin_NYCSchoolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0210607_RileyDurbin_NYCSchoolsApp.swift; sourceTree = "<group>"; };
+		0085C74B266EAEEC00E6D38C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0085C74D266EAEEF00E6D38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0085C750266EAEEF00E6D38C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0085C752266EAEEF00E6D38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0085C757266EAEEF00E6D38C /* 20210607-RileyDurbin-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20210607-RileyDurbin-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0085C75B266EAEEF00E6D38C /* _0210607_RileyDurbin_NYCSchoolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0210607_RileyDurbin_NYCSchoolsTests.swift; sourceTree = "<group>"; };
+		0085C75D266EAEEF00E6D38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0085C762266EAEEF00E6D38C /* 20210607-RileyDurbin-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20210607-RileyDurbin-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0085C766266EAEEF00E6D38C /* _0210607_RileyDurbin_NYCSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0210607_RileyDurbin_NYCSchoolsUITests.swift; sourceTree = "<group>"; };
+		0085C768266EAEEF00E6D38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0085C743266EAEEC00E6D38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0085C754266EAEEF00E6D38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0085C75F266EAEEF00E6D38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0085C73D266EAEEC00E6D38C = {
+			isa = PBXGroup;
+			children = (
+				0085C748266EAEEC00E6D38C /* 20210607-RileyDurbin-NYCSchools */,
+				0085C75A266EAEEF00E6D38C /* 20210607-RileyDurbin-NYCSchoolsTests */,
+				0085C765266EAEEF00E6D38C /* 20210607-RileyDurbin-NYCSchoolsUITests */,
+				0085C747266EAEEC00E6D38C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0085C747266EAEEC00E6D38C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0085C746266EAEEC00E6D38C /* 20210607-RileyDurbin-NYCSchools.app */,
+				0085C757266EAEEF00E6D38C /* 20210607-RileyDurbin-NYCSchoolsTests.xctest */,
+				0085C762266EAEEF00E6D38C /* 20210607-RileyDurbin-NYCSchoolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0085C748266EAEEC00E6D38C /* 20210607-RileyDurbin-NYCSchools */ = {
+			isa = PBXGroup;
+			children = (
+				0085C749266EAEEC00E6D38C /* _0210607_RileyDurbin_NYCSchoolsApp.swift */,
+				0085C74B266EAEEC00E6D38C /* ContentView.swift */,
+				0085C74D266EAEEF00E6D38C /* Assets.xcassets */,
+				0085C752266EAEEF00E6D38C /* Info.plist */,
+				0085C74F266EAEEF00E6D38C /* Preview Content */,
+			);
+			path = "20210607-RileyDurbin-NYCSchools";
+			sourceTree = "<group>";
+		};
+		0085C74F266EAEEF00E6D38C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0085C750266EAEEF00E6D38C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0085C75A266EAEEF00E6D38C /* 20210607-RileyDurbin-NYCSchoolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0085C75B266EAEEF00E6D38C /* _0210607_RileyDurbin_NYCSchoolsTests.swift */,
+				0085C75D266EAEEF00E6D38C /* Info.plist */,
+			);
+			path = "20210607-RileyDurbin-NYCSchoolsTests";
+			sourceTree = "<group>";
+		};
+		0085C765266EAEEF00E6D38C /* 20210607-RileyDurbin-NYCSchoolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0085C766266EAEEF00E6D38C /* _0210607_RileyDurbin_NYCSchoolsUITests.swift */,
+				0085C768266EAEEF00E6D38C /* Info.plist */,
+			);
+			path = "20210607-RileyDurbin-NYCSchoolsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0085C745266EAEEC00E6D38C /* 20210607-RileyDurbin-NYCSchools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0085C76B266EAEEF00E6D38C /* Build configuration list for PBXNativeTarget "20210607-RileyDurbin-NYCSchools" */;
+			buildPhases = (
+				0085C742266EAEEC00E6D38C /* Sources */,
+				0085C743266EAEEC00E6D38C /* Frameworks */,
+				0085C744266EAEEC00E6D38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20210607-RileyDurbin-NYCSchools";
+			productName = "20210607-RileyDurbin-NYCSchools";
+			productReference = 0085C746266EAEEC00E6D38C /* 20210607-RileyDurbin-NYCSchools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0085C756266EAEEF00E6D38C /* 20210607-RileyDurbin-NYCSchoolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0085C76E266EAEEF00E6D38C /* Build configuration list for PBXNativeTarget "20210607-RileyDurbin-NYCSchoolsTests" */;
+			buildPhases = (
+				0085C753266EAEEF00E6D38C /* Sources */,
+				0085C754266EAEEF00E6D38C /* Frameworks */,
+				0085C755266EAEEF00E6D38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0085C759266EAEEF00E6D38C /* PBXTargetDependency */,
+			);
+			name = "20210607-RileyDurbin-NYCSchoolsTests";
+			productName = "20210607-RileyDurbin-NYCSchoolsTests";
+			productReference = 0085C757266EAEEF00E6D38C /* 20210607-RileyDurbin-NYCSchoolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0085C761266EAEEF00E6D38C /* 20210607-RileyDurbin-NYCSchoolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0085C771266EAEEF00E6D38C /* Build configuration list for PBXNativeTarget "20210607-RileyDurbin-NYCSchoolsUITests" */;
+			buildPhases = (
+				0085C75E266EAEEF00E6D38C /* Sources */,
+				0085C75F266EAEEF00E6D38C /* Frameworks */,
+				0085C760266EAEEF00E6D38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0085C764266EAEEF00E6D38C /* PBXTargetDependency */,
+			);
+			name = "20210607-RileyDurbin-NYCSchoolsUITests";
+			productName = "20210607-RileyDurbin-NYCSchoolsUITests";
+			productReference = 0085C762266EAEEF00E6D38C /* 20210607-RileyDurbin-NYCSchoolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0085C73E266EAEEC00E6D38C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					0085C745266EAEEC00E6D38C = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					0085C756266EAEEF00E6D38C = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 0085C745266EAEEC00E6D38C;
+					};
+					0085C761266EAEEF00E6D38C = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 0085C745266EAEEC00E6D38C;
+					};
+				};
+			};
+			buildConfigurationList = 0085C741266EAEEC00E6D38C /* Build configuration list for PBXProject "20210607-RileyDurbin-NYCSchools" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0085C73D266EAEEC00E6D38C;
+			productRefGroup = 0085C747266EAEEC00E6D38C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0085C745266EAEEC00E6D38C /* 20210607-RileyDurbin-NYCSchools */,
+				0085C756266EAEEF00E6D38C /* 20210607-RileyDurbin-NYCSchoolsTests */,
+				0085C761266EAEEF00E6D38C /* 20210607-RileyDurbin-NYCSchoolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0085C744266EAEEC00E6D38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0085C751266EAEEF00E6D38C /* Preview Assets.xcassets in Resources */,
+				0085C74E266EAEEF00E6D38C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0085C755266EAEEF00E6D38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0085C760266EAEEF00E6D38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0085C742266EAEEC00E6D38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0085C74C266EAEEC00E6D38C /* ContentView.swift in Sources */,
+				0085C74A266EAEEC00E6D38C /* _0210607_RileyDurbin_NYCSchoolsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0085C753266EAEEF00E6D38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0085C75C266EAEEF00E6D38C /* _0210607_RileyDurbin_NYCSchoolsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0085C75E266EAEEF00E6D38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0085C767266EAEEF00E6D38C /* _0210607_RileyDurbin_NYCSchoolsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0085C759266EAEEF00E6D38C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0085C745266EAEEC00E6D38C /* 20210607-RileyDurbin-NYCSchools */;
+			targetProxy = 0085C758266EAEEF00E6D38C /* PBXContainerItemProxy */;
+		};
+		0085C764266EAEEF00E6D38C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0085C745266EAEEC00E6D38C /* 20210607-RileyDurbin-NYCSchools */;
+			targetProxy = 0085C763266EAEEF00E6D38C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0085C769266EAEEF00E6D38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0085C76A266EAEEF00E6D38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0085C76C266EAEEF00E6D38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"20210607-RileyDurbin-NYCSchools/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "20210607-RileyDurbin-NYCSchools/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rileydurbin.-0210607-RileyDurbin-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0085C76D266EAEEF00E6D38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"20210607-RileyDurbin-NYCSchools/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "20210607-RileyDurbin-NYCSchools/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rileydurbin.-0210607-RileyDurbin-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0085C76F266EAEEF00E6D38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "20210607-RileyDurbin-NYCSchoolsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rileydurbin.-0210607-RileyDurbin-NYCSchoolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20210607-RileyDurbin-NYCSchools.app/20210607-RileyDurbin-NYCSchools";
+			};
+			name = Debug;
+		};
+		0085C770266EAEEF00E6D38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "20210607-RileyDurbin-NYCSchoolsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rileydurbin.-0210607-RileyDurbin-NYCSchoolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20210607-RileyDurbin-NYCSchools.app/20210607-RileyDurbin-NYCSchools";
+			};
+			name = Release;
+		};
+		0085C772266EAEEF00E6D38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "20210607-RileyDurbin-NYCSchoolsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rileydurbin.-0210607-RileyDurbin-NYCSchoolsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "20210607-RileyDurbin-NYCSchools";
+			};
+			name = Debug;
+		};
+		0085C773266EAEEF00E6D38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "20210607-RileyDurbin-NYCSchoolsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rileydurbin.-0210607-RileyDurbin-NYCSchoolsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "20210607-RileyDurbin-NYCSchools";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0085C741266EAEEC00E6D38C /* Build configuration list for PBXProject "20210607-RileyDurbin-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0085C769266EAEEF00E6D38C /* Debug */,
+				0085C76A266EAEEF00E6D38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0085C76B266EAEEF00E6D38C /* Build configuration list for PBXNativeTarget "20210607-RileyDurbin-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0085C76C266EAEEF00E6D38C /* Debug */,
+				0085C76D266EAEEF00E6D38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0085C76E266EAEEF00E6D38C /* Build configuration list for PBXNativeTarget "20210607-RileyDurbin-NYCSchoolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0085C76F266EAEEF00E6D38C /* Debug */,
+				0085C770266EAEEF00E6D38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0085C771266EAEEF00E6D38C /* Build configuration list for PBXNativeTarget "20210607-RileyDurbin-NYCSchoolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0085C772266EAEEF00E6D38C /* Debug */,
+				0085C773266EAEEF00E6D38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0085C73E266EAEEC00E6D38C /* Project object */;
+}
