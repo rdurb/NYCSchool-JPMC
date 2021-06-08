@@ -1,0 +1,6 @@
+framework module Pods_20210607_RileyDurbin_NYCSchools_20210607_RileyDurbin_NYCSchoolsUITests {
+  umbrella header "Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

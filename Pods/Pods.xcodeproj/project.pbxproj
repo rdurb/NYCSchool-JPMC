@@ -1,0 +1,988 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0741320F4029C077E6C87F24FBBE1921 /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D16ACDE2AE4B3E0207DFE4596ECCF28 /* CSV.swift */; };
+		154DA87F9CFE7544E755F5D133AD4E2E /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC1A17313467692513DF3C7C0488069 /* Parser.swift */; };
+		1828BFA939CAE1AFF6D0FD65837BFD54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		18E8699E19BF79678DE08904FCB53F2B /* String+Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33DD3908FA544F294024AB4150AD13 /* String+Lines.swift */; };
+		428DED217D547617F19792EBDE67EA22 /* Pods-20210607-RileyDurbin-NYCSchools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FE9A49E47FF9BAE67803708864DD66 /* Pods-20210607-RileyDurbin-NYCSchools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D7F9243C47FDAE33C85C4E38E3420F2 /* EnumeratedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24267885B60F44D4DD36723C982754C1 /* EnumeratedView.swift */; };
+		6690432C97C6781539C0CD42DD0B3973 /* Pods-20210607-RileyDurbin-NYCSchoolsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7BE2AD85A2F1CF1E807012B90CF52 /* Pods-20210607-RileyDurbin-NYCSchoolsTests-dummy.m */; };
+		8304872D8ECB64AB000706D22F9208E9 /* Pods-20210607-RileyDurbin-NYCSchoolsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF6A64047FFAAE2FF740C91544EE2E6 /* Pods-20210607-RileyDurbin-NYCSchoolsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		837565F200CD03AD302FB1FEADDBD6DB /* ParsingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A12861A7AD26E770421EDCDF7CB70C /* ParsingState.swift */; };
+		840207CDB5CB33300AF892ED6F6791B7 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 645E76C95E61D9969DA6B7CA85CA7695 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-dummy.m */; };
+		86AA9FC981C6AD5D03CA1D4BFD51FD1D /* SwiftCSV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F395B92D2B1E5E7B6A441DB5B1F939A /* SwiftCSV-dummy.m */; };
+		880CBFFBB67B1777973EE8D0A9FBDE79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		97876E2A668A503DC6F213D0A30692D8 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A83ED57A13FBE7AABD418103A2BB9F84 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A86CFB0F97C95200549E59C87E18DD82 /* SwiftCSV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54DE705C92D7D2D35F65FB4767C55DA7 /* SwiftCSV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC3A9BBBC696D7F15419180CBE24DE2A /* NamedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD18AA0E13FC4664F24D4A7DF51D275B /* NamedView.swift */; };
+		D4B697B083CEB6368C4F40EDE9677B34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DF943B30456E9E333A8D71D8F0BAC4FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E4326632509DC119D9F20A4ADF1A5EDB /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2026EDA9B2C54C6EEE0FA5B5DBF16B79 /* Description.swift */; };
+		EF16860DB0B6604737142A1C63319617 /* Pods-20210607-RileyDurbin-NYCSchools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA99107A2119B10E53E603BCA84A59 /* Pods-20210607-RileyDurbin-NYCSchools-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		356A55326E354595B139ECE9774FB00D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7465E4C13FFC9CE6D359E31F65D6825;
+			remoteInfo = SwiftCSV;
+		};
+		C0B62FDA12B51A3F9F404D8CCD7E569E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7465E4C13FFC9CE6D359E31F65D6825;
+			remoteInfo = SwiftCSV;
+		};
+		D467535D260514508F540655A41F5398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D45AB495EF7923946DC868971FDD768;
+			remoteInfo = "Pods-20210607-RileyDurbin-NYCSchools";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AC6233D9BBF6AAF53FAAA76A4D06E98 /* SwiftCSV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftCSV.debug.xcconfig; sourceTree = "<group>"; };
+		2026EDA9B2C54C6EEE0FA5B5DBF16B79 /* Description.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Description.swift; path = SwiftCSV/Description.swift; sourceTree = "<group>"; };
+		23ECEF553D17237979EB229192CBF868 /* SwiftCSV-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftCSV-Info.plist"; sourceTree = "<group>"; };
+		24267885B60F44D4DD36723C982754C1 /* EnumeratedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumeratedView.swift; path = SwiftCSV/EnumeratedView.swift; sourceTree = "<group>"; };
+		24FFB183F026935545290C55237C3FF3 /* SwiftCSV-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCSV-prefix.pch"; sourceTree = "<group>"; };
+		26BB3D0C6B4E18D899041217E816443F /* Pods-20210607-RileyDurbin-NYCSchoolsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-20210607-RileyDurbin-NYCSchoolsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D16ACDE2AE4B3E0207DFE4596ECCF28 /* CSV.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSV.swift; path = SwiftCSV/CSV.swift; sourceTree = "<group>"; };
+		2EE7BE2AD85A2F1CF1E807012B90CF52 /* Pods-20210607-RileyDurbin-NYCSchoolsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-20210607-RileyDurbin-NYCSchoolsTests-dummy.m"; sourceTree = "<group>"; };
+		2F395B92D2B1E5E7B6A441DB5B1F939A /* SwiftCSV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftCSV-dummy.m"; sourceTree = "<group>"; };
+		3143EFAB6F2D4FDFFBE7D6BE2AB52522 /* Pods-20210607-RileyDurbin-NYCSchoolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-20210607-RileyDurbin-NYCSchoolsTests.release.xcconfig"; sourceTree = "<group>"; };
+		357C2121E6FC4C242EA5A4404AC2F254 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3DCF262F5A54C9B24EC7A0BCCB192A82 /* Pods-20210607-RileyDurbin-NYCSchoolsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-20210607-RileyDurbin-NYCSchoolsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		43208C42B23B5CE3D0D7A2EB1F6BB31C /* Pods-20210607-RileyDurbin-NYCSchools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-20210607-RileyDurbin-NYCSchools.release.xcconfig"; sourceTree = "<group>"; };
+		4B6C5FD69B845C197BEAFF73175D8CB4 /* Pods-20210607-RileyDurbin-NYCSchoolsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-20210607-RileyDurbin-NYCSchoolsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B8E57816CFF2176EBD1231AE2CFF1B0 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-frameworks.sh"; sourceTree = "<group>"; };
+		4D33DD3908FA544F294024AB4150AD13 /* String+Lines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Lines.swift"; path = "SwiftCSV/String+Lines.swift"; sourceTree = "<group>"; };
+		4EC1A17313467692513DF3C7C0488069 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = SwiftCSV/Parser.swift; sourceTree = "<group>"; };
+		52397370C3B56E39278494B62391E7F4 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-Info.plist"; sourceTree = "<group>"; };
+		54DE705C92D7D2D35F65FB4767C55DA7 /* SwiftCSV-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCSV-umbrella.h"; sourceTree = "<group>"; };
+		5A6CBEAC7212DCE694AC28667C36D2D1 /* SwiftCSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftCSV.framework; path = SwiftCSV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBA99107A2119B10E53E603BCA84A59 /* Pods-20210607-RileyDurbin-NYCSchools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-20210607-RileyDurbin-NYCSchools-dummy.m"; sourceTree = "<group>"; };
+		60DDE55FDB17F311D9F78C5300AD2AEE /* Pods-20210607-RileyDurbin-NYCSchools-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-20210607-RileyDurbin-NYCSchools-acknowledgements.markdown"; sourceTree = "<group>"; };
+		645E76C95E61D9969DA6B7CA85CA7695 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-dummy.m"; sourceTree = "<group>"; };
+		68129145088560D54FB8C6BF1003199E /* Pods_20210607_RileyDurbin_NYCSchools_20210607_RileyDurbin_NYCSchoolsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_20210607_RileyDurbin_NYCSchools_20210607_RileyDurbin_NYCSchoolsUITests.framework; path = "Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		709EC0482228BD39C3A0D472FB9035DF /* SwiftCSV.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftCSV.modulemap; sourceTree = "<group>"; };
+		70FE9A49E47FF9BAE67803708864DD66 /* Pods-20210607-RileyDurbin-NYCSchools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-20210607-RileyDurbin-NYCSchools-umbrella.h"; sourceTree = "<group>"; };
+		7298D6E7168ECEC5D914BB8DD3E7111A /* Pods-20210607-RileyDurbin-NYCSchools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-20210607-RileyDurbin-NYCSchools.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74233CF689794DD1F145D7668D78D267 /* Pods_20210607_RileyDurbin_NYCSchoolsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_20210607_RileyDurbin_NYCSchoolsTests.framework; path = "Pods-20210607-RileyDurbin-NYCSchoolsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7763EE02BA9FD94287108A8D97B5BAE5 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7CD4DD172758F7DD73BAD4D446989FEA /* Pods-20210607-RileyDurbin-NYCSchoolsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-20210607-RileyDurbin-NYCSchoolsTests.modulemap"; sourceTree = "<group>"; };
+		834050708E4D63994C99D81A46838158 /* Pods-20210607-RileyDurbin-NYCSchools-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-20210607-RileyDurbin-NYCSchools-frameworks.sh"; sourceTree = "<group>"; };
+		903C202977983D1C04B1AE35DE92D5EB /* Pods-20210607-RileyDurbin-NYCSchools-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-20210607-RileyDurbin-NYCSchools-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A83ED57A13FBE7AABD418103A2BB9F84 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-umbrella.h"; sourceTree = "<group>"; };
+		A9D4C08C40212BAF701F7EA2E256A7EE /* Pods_20210607_RileyDurbin_NYCSchools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_20210607_RileyDurbin_NYCSchools.framework; path = "Pods-20210607-RileyDurbin-NYCSchools.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF6A64047FFAAE2FF740C91544EE2E6 /* Pods-20210607-RileyDurbin-NYCSchoolsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-20210607-RileyDurbin-NYCSchoolsTests-umbrella.h"; sourceTree = "<group>"; };
+		B0CD4F647DD8D497EEE2A0293A656D19 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C57FEF645DEC3962CF2AC41219ED4F35 /* Pods-20210607-RileyDurbin-NYCSchoolsTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-20210607-RileyDurbin-NYCSchoolsTests-Info.plist"; sourceTree = "<group>"; };
+		C6A12861A7AD26E770421EDCDF7CB70C /* ParsingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParsingState.swift; path = SwiftCSV/ParsingState.swift; sourceTree = "<group>"; };
+		CD18AA0E13FC4664F24D4A7DF51D275B /* NamedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NamedView.swift; path = SwiftCSV/NamedView.swift; sourceTree = "<group>"; };
+		CEA7FCF90943BB92F4EFF64CF50A6D49 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests.modulemap"; sourceTree = "<group>"; };
+		D9F1FE174D4DCA81C375E5E7BC60B487 /* SwiftCSV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftCSV.release.xcconfig; sourceTree = "<group>"; };
+		E52EE381B4185FFBF61DE19B0FF63CD2 /* Pods-20210607-RileyDurbin-NYCSchools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-20210607-RileyDurbin-NYCSchools.modulemap"; sourceTree = "<group>"; };
+		FA2775271B659CB2E8158B06DB272608 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFB5E821C6223EEA42B73694580DA2CA /* Pods-20210607-RileyDurbin-NYCSchools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-20210607-RileyDurbin-NYCSchools-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95C2121F23D1529DA9152E5CA1DC2B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF943B30456E9E333A8D71D8F0BAC4FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98911C0C5F50D172ECAE9482019E2A8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1828BFA939CAE1AFF6D0FD65837BFD54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF88BD7E92B42DACAFEA605763B0A54F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B697B083CEB6368C4F40EDE9677B34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D6C0570D3FE42552C524F4711C9C37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880CBFFBB67B1777973EE8D0A9FBDE79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3D164F168DCE8490382F0C953781A2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				709EC0482228BD39C3A0D472FB9035DF /* SwiftCSV.modulemap */,
+				2F395B92D2B1E5E7B6A441DB5B1F939A /* SwiftCSV-dummy.m */,
+				23ECEF553D17237979EB229192CBF868 /* SwiftCSV-Info.plist */,
+				24FFB183F026935545290C55237C3FF3 /* SwiftCSV-prefix.pch */,
+				54DE705C92D7D2D35F65FB4767C55DA7 /* SwiftCSV-umbrella.h */,
+				1AC6233D9BBF6AAF53FAAA76A4D06E98 /* SwiftCSV.debug.xcconfig */,
+				D9F1FE174D4DCA81C375E5E7BC60B487 /* SwiftCSV.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftCSV";
+			sourceTree = "<group>";
+		};
+		42BF034F5923CEAA4FC35437B4A8289F /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA7FCF90943BB92F4EFF64CF50A6D49 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests.modulemap */,
+				7763EE02BA9FD94287108A8D97B5BAE5 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-acknowledgements.markdown */,
+				357C2121E6FC4C242EA5A4404AC2F254 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-acknowledgements.plist */,
+				645E76C95E61D9969DA6B7CA85CA7695 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-dummy.m */,
+				4B8E57816CFF2176EBD1231AE2CFF1B0 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-frameworks.sh */,
+				52397370C3B56E39278494B62391E7F4 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-Info.plist */,
+				A83ED57A13FBE7AABD418103A2BB9F84 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-umbrella.h */,
+				FA2775271B659CB2E8158B06DB272608 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests.debug.xcconfig */,
+				B0CD4F647DD8D497EEE2A0293A656D19 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests.release.xcconfig */,
+			);
+			name = "Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests";
+			path = "Target Support Files/Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests";
+			sourceTree = "<group>";
+		};
+		4635527E948DC40FFB20CE7477084D79 /* Pods-20210607-RileyDurbin-NYCSchoolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CD4DD172758F7DD73BAD4D446989FEA /* Pods-20210607-RileyDurbin-NYCSchoolsTests.modulemap */,
+				26BB3D0C6B4E18D899041217E816443F /* Pods-20210607-RileyDurbin-NYCSchoolsTests-acknowledgements.markdown */,
+				3DCF262F5A54C9B24EC7A0BCCB192A82 /* Pods-20210607-RileyDurbin-NYCSchoolsTests-acknowledgements.plist */,
+				2EE7BE2AD85A2F1CF1E807012B90CF52 /* Pods-20210607-RileyDurbin-NYCSchoolsTests-dummy.m */,
+				C57FEF645DEC3962CF2AC41219ED4F35 /* Pods-20210607-RileyDurbin-NYCSchoolsTests-Info.plist */,
+				AEF6A64047FFAAE2FF740C91544EE2E6 /* Pods-20210607-RileyDurbin-NYCSchoolsTests-umbrella.h */,
+				4B6C5FD69B845C197BEAFF73175D8CB4 /* Pods-20210607-RileyDurbin-NYCSchoolsTests.debug.xcconfig */,
+				3143EFAB6F2D4FDFFBE7D6BE2AB52522 /* Pods-20210607-RileyDurbin-NYCSchoolsTests.release.xcconfig */,
+			);
+			name = "Pods-20210607-RileyDurbin-NYCSchoolsTests";
+			path = "Target Support Files/Pods-20210607-RileyDurbin-NYCSchoolsTests";
+			sourceTree = "<group>";
+		};
+		52E4BE52B2B27F169C46EA27D2B1B4EF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AF3BB0C957D035256F157689C89E44F /* Pods-20210607-RileyDurbin-NYCSchools */,
+				42BF034F5923CEAA4FC35437B4A8289F /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests */,
+				4635527E948DC40FFB20CE7477084D79 /* Pods-20210607-RileyDurbin-NYCSchoolsTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7AF3BB0C957D035256F157689C89E44F /* Pods-20210607-RileyDurbin-NYCSchools */ = {
+			isa = PBXGroup;
+			children = (
+				E52EE381B4185FFBF61DE19B0FF63CD2 /* Pods-20210607-RileyDurbin-NYCSchools.modulemap */,
+				60DDE55FDB17F311D9F78C5300AD2AEE /* Pods-20210607-RileyDurbin-NYCSchools-acknowledgements.markdown */,
+				903C202977983D1C04B1AE35DE92D5EB /* Pods-20210607-RileyDurbin-NYCSchools-acknowledgements.plist */,
+				5DBA99107A2119B10E53E603BCA84A59 /* Pods-20210607-RileyDurbin-NYCSchools-dummy.m */,
+				834050708E4D63994C99D81A46838158 /* Pods-20210607-RileyDurbin-NYCSchools-frameworks.sh */,
+				FFB5E821C6223EEA42B73694580DA2CA /* Pods-20210607-RileyDurbin-NYCSchools-Info.plist */,
+				70FE9A49E47FF9BAE67803708864DD66 /* Pods-20210607-RileyDurbin-NYCSchools-umbrella.h */,
+				7298D6E7168ECEC5D914BB8DD3E7111A /* Pods-20210607-RileyDurbin-NYCSchools.debug.xcconfig */,
+				43208C42B23B5CE3D0D7A2EB1F6BB31C /* Pods-20210607-RileyDurbin-NYCSchools.release.xcconfig */,
+			);
+			name = "Pods-20210607-RileyDurbin-NYCSchools";
+			path = "Target Support Files/Pods-20210607-RileyDurbin-NYCSchools";
+			sourceTree = "<group>";
+		};
+		7CB4D4DE785B19188C1DB656AF8A000B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE91C188822E0641020E38AD9DE0338C /* SwiftCSV */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A8BC308076115EF3B96AE9705E2D8B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9D4C08C40212BAF701F7EA2E256A7EE /* Pods_20210607_RileyDurbin_NYCSchools.framework */,
+				68129145088560D54FB8C6BF1003199E /* Pods_20210607_RileyDurbin_NYCSchools_20210607_RileyDurbin_NYCSchoolsUITests.framework */,
+				74233CF689794DD1F145D7668D78D267 /* Pods_20210607_RileyDurbin_NYCSchoolsTests.framework */,
+				5A6CBEAC7212DCE694AC28667C36D2D1 /* SwiftCSV.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE91C188822E0641020E38AD9DE0338C /* SwiftCSV */ = {
+			isa = PBXGroup;
+			children = (
+				2D16ACDE2AE4B3E0207DFE4596ECCF28 /* CSV.swift */,
+				2026EDA9B2C54C6EEE0FA5B5DBF16B79 /* Description.swift */,
+				24267885B60F44D4DD36723C982754C1 /* EnumeratedView.swift */,
+				CD18AA0E13FC4664F24D4A7DF51D275B /* NamedView.swift */,
+				4EC1A17313467692513DF3C7C0488069 /* Parser.swift */,
+				C6A12861A7AD26E770421EDCDF7CB70C /* ParsingState.swift */,
+				4D33DD3908FA544F294024AB4150AD13 /* String+Lines.swift */,
+				0A3D164F168DCE8490382F0C953781A2 /* Support Files */,
+			);
+			name = SwiftCSV;
+			path = SwiftCSV;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7CB4D4DE785B19188C1DB656AF8A000B /* Pods */,
+				8A8BC308076115EF3B96AE9705E2D8B0 /* Products */,
+				52E4BE52B2B27F169C46EA27D2B1B4EF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9454A035013F19F5F9313F2C6B6FD591 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86CFB0F97C95200549E59C87E18DD82 /* SwiftCSV-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A53ADB6EE2C517B2CB6BB86DAE8E45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8304872D8ECB64AB000706D22F9208E9 /* Pods-20210607-RileyDurbin-NYCSchoolsTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4793D0DA9ECC224E3AA9D8181A4E9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428DED217D547617F19792EBDE67EA22 /* Pods-20210607-RileyDurbin-NYCSchools-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F905364C71D0AA40A5A583C80D77ACC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97876E2A668A503DC6F213D0A30692D8 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D45AB495EF7923946DC868971FDD768 /* Pods-20210607-RileyDurbin-NYCSchools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F78642B13F444E490D515188EC5B8FE /* Build configuration list for PBXNativeTarget "Pods-20210607-RileyDurbin-NYCSchools" */;
+			buildPhases = (
+				AC4793D0DA9ECC224E3AA9D8181A4E9D /* Headers */,
+				EF626613252E8FE11873BA888A04E1BC /* Sources */,
+				AF88BD7E92B42DACAFEA605763B0A54F /* Frameworks */,
+				3E8577EC46DF90762D2800E3C26984A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE7328DFF98000A7A2D956FA9E064A53 /* PBXTargetDependency */,
+			);
+			name = "Pods-20210607-RileyDurbin-NYCSchools";
+			productName = "Pods-20210607-RileyDurbin-NYCSchools";
+			productReference = A9D4C08C40212BAF701F7EA2E256A7EE /* Pods_20210607_RileyDurbin_NYCSchools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A47A1C58B6A2FDCBEFF878BEF768A2B /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7372924A34F3A1F0B24DA686B500FAF5 /* Build configuration list for PBXNativeTarget "Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests" */;
+			buildPhases = (
+				F905364C71D0AA40A5A583C80D77ACC9 /* Headers */,
+				787C3F37F992EF34E3AA6BBBB7569188 /* Sources */,
+				98911C0C5F50D172ECAE9482019E2A8D /* Frameworks */,
+				8FF19D54D7E0C53F3D0FD065F10AF9A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F33BC6A847B9AE60D9F2AB18CBAE90F4 /* PBXTargetDependency */,
+			);
+			name = "Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests";
+			productName = "Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests";
+			productReference = 68129145088560D54FB8C6BF1003199E /* Pods_20210607_RileyDurbin_NYCSchools_20210607_RileyDurbin_NYCSchoolsUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		902C8A70CEC82BE4FCBA4ADBAD43957B /* Pods-20210607-RileyDurbin-NYCSchoolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79FB45F46FB6F79C11642305D470D585 /* Build configuration list for PBXNativeTarget "Pods-20210607-RileyDurbin-NYCSchoolsTests" */;
+			buildPhases = (
+				96A53ADB6EE2C517B2CB6BB86DAE8E45 /* Headers */,
+				2B11F990CEA48C55E6DC309E45AFCF3D /* Sources */,
+				C3D6C0570D3FE42552C524F4711C9C37 /* Frameworks */,
+				7C06D224ED78F3A50341ADCC924FE48F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30383FD52740EB7648370BC7A48BAB53 /* PBXTargetDependency */,
+			);
+			name = "Pods-20210607-RileyDurbin-NYCSchoolsTests";
+			productName = "Pods-20210607-RileyDurbin-NYCSchoolsTests";
+			productReference = 74233CF689794DD1F145D7668D78D267 /* Pods_20210607_RileyDurbin_NYCSchoolsTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7465E4C13FFC9CE6D359E31F65D6825 /* SwiftCSV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCBB878FE817CF7378757F7C30D1616 /* Build configuration list for PBXNativeTarget "SwiftCSV" */;
+			buildPhases = (
+				9454A035013F19F5F9313F2C6B6FD591 /* Headers */,
+				5DB8683FD4EC2E07E03B765DEC4CAA24 /* Sources */,
+				95C2121F23D1529DA9152E5CA1DC2B3A /* Frameworks */,
+				A8645B289EFCD27C4334F0DF62673388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftCSV;
+			productName = SwiftCSV;
+			productReference = 5A6CBEAC7212DCE694AC28667C36D2D1 /* SwiftCSV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8A8BC308076115EF3B96AE9705E2D8B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D45AB495EF7923946DC868971FDD768 /* Pods-20210607-RileyDurbin-NYCSchools */,
+				4A47A1C58B6A2FDCBEFF878BEF768A2B /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests */,
+				902C8A70CEC82BE4FCBA4ADBAD43957B /* Pods-20210607-RileyDurbin-NYCSchoolsTests */,
+				B7465E4C13FFC9CE6D359E31F65D6825 /* SwiftCSV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E8577EC46DF90762D2800E3C26984A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C06D224ED78F3A50341ADCC924FE48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF19D54D7E0C53F3D0FD065F10AF9A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8645B289EFCD27C4334F0DF62673388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B11F990CEA48C55E6DC309E45AFCF3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6690432C97C6781539C0CD42DD0B3973 /* Pods-20210607-RileyDurbin-NYCSchoolsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB8683FD4EC2E07E03B765DEC4CAA24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0741320F4029C077E6C87F24FBBE1921 /* CSV.swift in Sources */,
+				E4326632509DC119D9F20A4ADF1A5EDB /* Description.swift in Sources */,
+				5D7F9243C47FDAE33C85C4E38E3420F2 /* EnumeratedView.swift in Sources */,
+				AC3A9BBBC696D7F15419180CBE24DE2A /* NamedView.swift in Sources */,
+				154DA87F9CFE7544E755F5D133AD4E2E /* Parser.swift in Sources */,
+				837565F200CD03AD302FB1FEADDBD6DB /* ParsingState.swift in Sources */,
+				18E8699E19BF79678DE08904FCB53F2B /* String+Lines.swift in Sources */,
+				86AA9FC981C6AD5D03CA1D4BFD51FD1D /* SwiftCSV-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787C3F37F992EF34E3AA6BBBB7569188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840207CDB5CB33300AF892ED6F6791B7 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF626613252E8FE11873BA888A04E1BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF16860DB0B6604737142A1C63319617 /* Pods-20210607-RileyDurbin-NYCSchools-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30383FD52740EB7648370BC7A48BAB53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-20210607-RileyDurbin-NYCSchools";
+			target = 2D45AB495EF7923946DC868971FDD768 /* Pods-20210607-RileyDurbin-NYCSchools */;
+			targetProxy = D467535D260514508F540655A41F5398 /* PBXContainerItemProxy */;
+		};
+		AE7328DFF98000A7A2D956FA9E064A53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftCSV;
+			target = B7465E4C13FFC9CE6D359E31F65D6825 /* SwiftCSV */;
+			targetProxy = 356A55326E354595B139ECE9774FB00D /* PBXContainerItemProxy */;
+		};
+		F33BC6A847B9AE60D9F2AB18CBAE90F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftCSV;
+			target = B7465E4C13FFC9CE6D359E31F65D6825 /* SwiftCSV */;
+			targetProxy = C0B62FDA12B51A3F9F404D8CCD7E569E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12667D92E47A1F8B6A301FFBBAF58029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA2775271B659CB2E8158B06DB272608 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests/Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests/Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5EF57E893C177D4A55BECC3AD5FDEF28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43208C42B23B5CE3D0D7A2EB1F6BB31C /* Pods-20210607-RileyDurbin-NYCSchools.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-20210607-RileyDurbin-NYCSchools/Pods-20210607-RileyDurbin-NYCSchools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-20210607-RileyDurbin-NYCSchools/Pods-20210607-RileyDurbin-NYCSchools.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		708CA726F5A7E8BFA0E04DA6AA2AAB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B6C5FD69B845C197BEAFF73175D8CB4 /* Pods-20210607-RileyDurbin-NYCSchoolsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-20210607-RileyDurbin-NYCSchoolsTests/Pods-20210607-RileyDurbin-NYCSchoolsTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-20210607-RileyDurbin-NYCSchoolsTests/Pods-20210607-RileyDurbin-NYCSchoolsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E72F9056732A948106D9BCDDA63FE88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9F1FE174D4DCA81C375E5E7BC60B487 /* SwiftCSV.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftCSV/SwiftCSV-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftCSV/SwiftCSV-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftCSV/SwiftCSV.modulemap";
+				PRODUCT_MODULE_NAME = SwiftCSV;
+				PRODUCT_NAME = SwiftCSV;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87AA355710231C7E5D1F2802A2C77B71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7298D6E7168ECEC5D914BB8DD3E7111A /* Pods-20210607-RileyDurbin-NYCSchools.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-20210607-RileyDurbin-NYCSchools/Pods-20210607-RileyDurbin-NYCSchools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-20210607-RileyDurbin-NYCSchools/Pods-20210607-RileyDurbin-NYCSchools.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		93C3178379E43851088B79A70ECEE354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AC6233D9BBF6AAF53FAAA76A4D06E98 /* SwiftCSV.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftCSV/SwiftCSV-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftCSV/SwiftCSV-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftCSV/SwiftCSV.modulemap";
+				PRODUCT_MODULE_NAME = SwiftCSV;
+				PRODUCT_NAME = SwiftCSV;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E014B97C017D01C823D5CC6C8C9D62DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3143EFAB6F2D4FDFFBE7D6BE2AB52522 /* Pods-20210607-RileyDurbin-NYCSchoolsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-20210607-RileyDurbin-NYCSchoolsTests/Pods-20210607-RileyDurbin-NYCSchoolsTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-20210607-RileyDurbin-NYCSchoolsTests/Pods-20210607-RileyDurbin-NYCSchoolsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E17A1A0FB692AAB12505D8A991E6438C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0CD4F647DD8D497EEE2A0293A656D19 /* Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests/Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests/Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F78642B13F444E490D515188EC5B8FE /* Build configuration list for PBXNativeTarget "Pods-20210607-RileyDurbin-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87AA355710231C7E5D1F2802A2C77B71 /* Debug */,
+				5EF57E893C177D4A55BECC3AD5FDEF28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7372924A34F3A1F0B24DA686B500FAF5 /* Build configuration list for PBXNativeTarget "Pods-20210607-RileyDurbin-NYCSchools-20210607-RileyDurbin-NYCSchoolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12667D92E47A1F8B6A301FFBBAF58029 /* Debug */,
+				E17A1A0FB692AAB12505D8A991E6438C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79FB45F46FB6F79C11642305D470D585 /* Build configuration list for PBXNativeTarget "Pods-20210607-RileyDurbin-NYCSchoolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708CA726F5A7E8BFA0E04DA6AA2AAB8A /* Debug */,
+				E014B97C017D01C823D5CC6C8C9D62DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCBB878FE817CF7378757F7C30D1616 /* Build configuration list for PBXNativeTarget "SwiftCSV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C3178379E43851088B79A70ECEE354 /* Debug */,
+				7E72F9056732A948106D9BCDDA63FE88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
